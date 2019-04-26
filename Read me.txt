@@ -15,7 +15,12 @@
 	b- Install to C:/program files
 	c- In Eclipse, go to window > preferences > server > runtime environment > add > apache > tomcat 8.0 > next
 		browse to C:\Program Files\Apache Software Foundation\Tomcat 8.0 and click fininsh then apply and close.
+	d- if you have installed xampp, change tomcat ports in xampp control panel to any port other than 8080.
 
 3- Create new Eclipse project, choose: dynamic web project
 	- go to file > new > other > web > dynamic web project and click next.
+	- check the "create web.xml" option.
 	- enter a project name, choose target runtime: apache tomcat v8.0 click finish.
+	- add all classes and files.
+
+( or choose open project from file system )
